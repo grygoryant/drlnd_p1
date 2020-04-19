@@ -23,5 +23,5 @@ Here's the scores plot (along with the moving average curve):
 ### Future work
 
 As futher improvements of the Agent dueling DQN and prioritized experience replay (PER) might be used.
-Since Q function can be represented as a sum of the Value and the advantage function, we can introduce two networks to learn each part of that sum and aggregate their inputs lates.
+Since Q function can be represented as a sum of the Value and the advantage function, we can introduce two networks to learn each part of that sum and aggregate their inputs later.
 The central idea around PER is to sample more important experiences with higher probabilities.
